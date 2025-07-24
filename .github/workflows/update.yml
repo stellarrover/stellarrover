@@ -1,0 +1,58 @@
+name: Update Profile
+
+on:
+  schedule:
+    - cron: "0 12 * * SUN"
+  push:
+    tags:
+      - "*"
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Reason"
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: "main"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Set timezone
+        run: sudo timedatectl set-timezone "Asia/Shanghai"
+
+      - name: Run updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          TOP_REPO_NUM: ${{ secrets.TOP_REPO_NUM || '10' }}
+          RECENT_REPO_NUM: ${{ secrets.RECENT_REPO_NUM || '10' }}
+          TIMEZONE: ${{ secrets.TIMEZONE || 'Asia/Shanghai' }}
+        run: npm start
+
+      - name: Commit and push changes
+        env:
+          GIT_USER: "GitHub Actions"
+          GIT_EMAIL: "action@github.com"
+        run: |
+          git config user.name "${GIT_USER}"
+          git config user.email "${GIT_EMAIL}"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git checkout main
+          git add ./README.md
+          git commit -m ":book: update by GitHub Actions"
+          git push -u origin main

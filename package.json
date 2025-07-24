@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-profile",
+  "version": "1.0.0",
+  "description": "GitHub Profile auto-updater with Node.js and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "nodemon --exec ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "typescript",
+    "nodejs",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "moment-timezone": "^0.5.43",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/moment-timezone": "^0.5.30",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.0",
+    "nodemon": "^3.0.1"
+  }
+}
