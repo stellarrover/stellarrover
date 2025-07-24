@@ -14,11 +14,13 @@ export class MarkdownRenderer {
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUsername}&layout=compact&hide_border=true&langs_count=10" alt="${githubData.name}'s Top Langs" width="37%" /> 
 </p>
 
+${process.env.LEETCODE_USERNAME ? `
 <a href="https://github.com/songquanpeng/stats-cards">
 <p>
-  <img src="https://stats.justsong.cn/api/leetcode/?username=quanpeng&theme=light" alt="JustSong's LeetCode Stats" width="49%" />
+  <img src="https://stats.justsong.cn/api/leetcode/?username=${process.env.LEETCODE_USERNAME}&theme=light" alt="LeetCode Stats" width="49%" />
 </p>
 </a>
+` : ''}
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
 
