@@ -12,8 +12,8 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
+|[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|A comprehensive TypeScript client library for TripAdvisor Content API. Provides type-safe interfaces, robust error handling, and null-safe field definitions for all TripAdvisor endpoints. Built to address the lack of official SDK and unreliable field type documentation.|0⭐|
 |[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|0⭐|
-|[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|TypeScript client for TripAdvisor API with type safety|0⭐|
 |[awesome-profit-forge](https://github.com/stellarrover/awesome-profit-forge)|No description|0⭐|
 |[cashier-hub](https://github.com/stellarrover/cashier-hub)|No description|0⭐|
 |[engine-x](https://github.com/stellarrover/engine-x)|The engine heart of the StellarRover system. With the help of advanced technology and optimized and efficient algorithms, the operation of the system is guaranteed.|0⭐|
@@ -21,8 +21,8 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2025-07-24 23:51:33](https://img.shields.io/badge/2025--07--24-23%3A51%3A33-brightgreen?style=flat-square)|
-|[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|TypeScript client for TripAdvisor API with type safety|![2025-07-24 23:45:23](https://img.shields.io/badge/2025--07--24-23%3A45%3A23-brightgreen?style=flat-square)|
+|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2025-07-24 23:52:15](https://img.shields.io/badge/2025--07--24-23%3A52%3A15-brightgreen?style=flat-square)|
+|[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|A comprehensive TypeScript client library for TripAdvisor Content API. Provides type-safe interfaces, robust error handling, and null-safe field definitions for all TripAdvisor endpoints. Built to address the lack of official SDK and unreliable field type documentation.|![2025-07-24 23:45:23](https://img.shields.io/badge/2025--07--24-23%3A45%3A23-brightgreen?style=flat-square)|
 |[awesome-profit-forge](https://github.com/stellarrover/awesome-profit-forge)|No description|![2025-04-14 16:53:55](https://img.shields.io/badge/2025--04--14-16%3A53%3A55-brightgreen?style=flat-square)|
 
-*Last updated on: 2025-07-24 23:52:14*
+*Last updated on: 2025-07-24 23:55:16*
