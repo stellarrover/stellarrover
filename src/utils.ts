@@ -78,27 +78,7 @@ export function executeGitCommand(command: string): Promise<boolean> {
     });
 }
 
-/**
- * 提交并推送更改
- */
-export async function commitAndPush(currentTime: string): Promise<void> {
-    const commitMessage = `:pencil2: update on ${currentTime}`;
 
-    // 添加文件
-    await executeGitCommand('git add ./README.md');
-
-    // 如果是调试模式，不提交
-    if (process.env.DEBUG) {
-        console.log('🔧 Debug mode: skipping commit and push');
-        return;
-    }
-
-    // 提交
-    await executeGitCommand(`git commit -m "${commitMessage}"`);
-
-    // 推送
-    await executeGitCommand('git push');
-}
 
 /**
  * 设置 Git 配置
@@ -116,6 +96,12 @@ export async function setupGitConfig(): Promise<void> {
 
     if (githubToken && repository) {
         const remoteUrl = `https://x-access-token:${githubToken}@github.com/${repository}.git`;
+        await executeGitCommand(`git remote set-url origin ${remoteUrl}`);
+    } else if (githubToken) {
+        // 如果没有 GITHUB_REPOSITORY 环境变量，尝试从当前目录推断
+        const cwd = process.cwd();
+        const dirName = path.basename(cwd);
+        const remoteUrl = `https://x-access-token:${githubToken}@github.com/stellarrover/${dirName}.git`;
         await executeGitCommand(`git remote set-url origin ${remoteUrl}`);
     }
 }

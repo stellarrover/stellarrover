@@ -19,7 +19,7 @@ export class GitHubClient {
 
         // 添加认证头
         if (this.token) {
-            this.client.defaults.headers.common['Authorization'] = `bearer ${this.token}`;
+            this.client.defaults.headers.common['Authorization'] = `token ${this.token}`;
         }
 
         // 添加请求拦截器

@@ -6,9 +6,7 @@ import { MarkdownRenderer } from './renderer';
 import {
     getConfig,
     getCurrentTime,
-    writeFile,
-    setupGitConfig,
-    commitAndPush
+    writeFile
 } from './utils';
 
 // 加载环境变量
@@ -59,12 +57,6 @@ class ProfileUpdater {
             }
 
             console.log('✅ README.md updated successfully');
-
-            // 设置 Git 配置
-            await setupGitConfig();
-
-            // 提交并推送更改
-            await commitAndPush(currentTime);
 
             console.log('🎉 Profile update completed successfully!');
 
