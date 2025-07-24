@@ -6,7 +6,7 @@
 
 
 
-![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
+![skills](https://skillicons.dev/icons?i=html,css,js,ts,react,angular,tailwind,nodejs,deno,nestjs,graphql,postgresql,mysql,mongodb,redis,cassandra,prisma,docker,kubernetes,nginx,aws,vitest,grafana,rabbitmq,bash,git,ai,vim,vscode,postman)
 
 
 ## Top Projects
@@ -21,8 +21,8 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2025-07-24 20:19:51](https://img.shields.io/badge/2025--07--24-20%3A19%3A51-brightgreen?style=flat-square)|
+|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2025-07-24 21:14:25](https://img.shields.io/badge/2025--07--24-21%3A14%3A25-brightgreen?style=flat-square)|
 |[awesome-profit-forge](https://github.com/stellarrover/awesome-profit-forge)|No description|![2025-04-14 16:53:55](https://img.shields.io/badge/2025--04--14-16%3A53%3A55-brightgreen?style=flat-square)|
 |[cashier-hub](https://github.com/stellarrover/cashier-hub)|No description|![2025-02-12 23:01:20](https://img.shields.io/badge/2025--02--12-23%3A01%3A20-brightgreen?style=flat-square)|
 
-*Last updated on: 2025-07-24 20:23:43*
+*Last updated on: 2025-07-24 21:15:06*
