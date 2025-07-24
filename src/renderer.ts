@@ -22,7 +22,7 @@ ${process.env.LEETCODE_USERNAME ? `
 </a>
 ` : ''}
 
-![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
+![skills](https://skillicons.dev/icons?i=html,css,js,ts,react,angular,tailwind,nodejs,deno,nestjs,graphql,postgresql,mysql,mongodb,redis,cassandra,prisma,docker,kubernetes,nginx,aws,vitest,grafana,rabbitmq,bash,git,ai,vim,vscode,postman)
 
 `;
     }
