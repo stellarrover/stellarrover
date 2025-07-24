@@ -60,4 +60,4 @@ jobs:
           git config user.email "${GIT_EMAIL}"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add ./README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m ":pencil2: update by GitHub Actions on $(date '+%Y-%m-%d %H:%M:%S')" && git push origin main)
+          git diff --quiet && git diff --staged --quiet || (git commit -m ":pencil2: update by GitHub Actions on $(date '+%Y-%m-%d %H:%M')" && git push origin main)
