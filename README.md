@@ -13,16 +13,16 @@
 |Project|Description|Stars|
 |:--|:--|:--|
 |[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|A comprehensive TypeScript client library for TripAdvisor Content API. Built to address the lack of official SDK and unreliable field type documentation.|2⭐|
-|[langsuite](https://github.com/stellarrover/langsuite)|No description|0⭐|
 |[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|0⭐|
+|[langsuite](https://github.com/stellarrover/langsuite)|No description|0⭐|
 |[awesome-profit-forge](https://github.com/stellarrover/awesome-profit-forge)|No description|0⭐|
 |[cashier-hub](https://github.com/stellarrover/cashier-hub)|No description|0⭐|
 
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
+|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2025-11-21 06:14:03](https://img.shields.io/badge/2025--11--21-06%3A14%3A03-brightgreen?style=flat-square)|
 |[langsuite](https://github.com/stellarrover/langsuite)|No description|![2025-11-20 15:20:48](https://img.shields.io/badge/2025--11--20-15%3A20%3A48-brightgreen?style=flat-square)|
-|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2025-11-20 06:14:12](https://img.shields.io/badge/2025--11--20-06%3A14%3A12-brightgreen?style=flat-square)|
 |[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|A comprehensive TypeScript client library for TripAdvisor Content API. Built to address the lack of official SDK and unreliable field type documentation.|![2025-07-26 16:57:53](https://img.shields.io/badge/2025--07--26-16%3A57%3A53-brightgreen?style=flat-square)|
 
-*Last updated on: 2025-11-21 06:14:02*
+*Last updated on: 2025-11-22 06:14:19*
