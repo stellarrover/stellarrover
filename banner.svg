@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="110" viewBox="0 0 800 110">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="800" height="110" fill="#f8f6f1" rx="12"/>
+  <text x="40" y="48" font-family="Kalam, cursive" font-size="26" font-weight="400" fill="#2c2c2a">
+    Currently working as a Back-end Engineer at a leading Generative AI Startup
+  </text>
+  <text x="40" y="82" font-family="Kalam, cursive" font-size="20" font-weight="300" fill="#888780">
+    Most of my work lives in a separate work account
+  </text>
+</svg>

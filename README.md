@@ -1,28 +1,11 @@
-## Abstract
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=stellarrover&show_icons=true&hide_border=true" alt="Felix Lau's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stellarrover&layout=compact&hide_border=true&langs_count=10" alt="Felix Lau's Top Langs" width="37%" /> 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&width=435&lines=hey%2C+i'm+stellarrover+%F0%9F%91%8B;backend+%C2%B7+AI+agent+%C2%B7+full-stack)](https://git.io/typing-svg)
+
+<p align="center">
+  <img src="./banner.svg" alt="banner" width="100%" />
 </p>
 
+[![My Skills](https://skillicons.dev/icons?i=py,ts,js,nodejs,deno,nestjs,react,angular,tailwind,graphql,postgres,mysql,mongodb,redis,cassandra,prisma,docker,kubernetes,nginx,aws,rabbitmq,grafana,vitest,bash,vim,vscode,git,postman&perline=14&theme=light)](https://skillicons.dev)
 
+---
 
-![skills](https://skillicons.dev/icons?i=html,css,js,ts,react,angular,tailwind,nodejs,deno,nestjs,graphql,postgresql,mysql,mongodb,redis,cassandra,prisma,docker,kubernetes,nginx,aws,vitest,grafana,rabbitmq,bash,git,ai,vim,vscode,postman)
-
-
-## Top Projects
-|Project|Description|Stars|
-|:--|:--|:--|
-|[tripadvisor-client](https://github.com/stellarrover/tripadvisor-client)|A comprehensive TypeScript client library for TripAdvisor Content API. Built to address the lack of official SDK and unreliable field type documentation.|2⭐|
-|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|0⭐|
-|[Mira](https://github.com/stellarrover/Mira)|Wonders from the stellar rover. Code that brightens and fades, but never vanishes.|0⭐|
-|[langsuite](https://github.com/stellarrover/langsuite)|No description|0⭐|
-|[engine-x](https://github.com/stellarrover/engine-x)|The engine heart of the StellarRover system. With the help of advanced technology and optimized and efficient algorithms, the operation of the system is guaranteed.|0⭐|
-
-## Recent Updates
-|Project|Description|Last Update|
-|:--|:--|:--|
-|[stellarrover](https://github.com/stellarrover/stellarrover)|Automatically update your GitHub profile with GitHub Actions.|![2026-04-02 06:31:23](https://img.shields.io/badge/2026--04--02-06%3A31%3A23-brightgreen?style=flat-square)|
-|[Mira](https://github.com/stellarrover/Mira)|Wonders from the stellar rover. Code that brightens and fades, but never vanishes.|![2026-01-18 18:53:15](https://img.shields.io/badge/2026--01--18-18%3A53%3A15-brightgreen?style=flat-square)|
-|[langsuite](https://github.com/stellarrover/langsuite)|No description|![2025-11-20 15:20:48](https://img.shields.io/badge/2025--11--20-15%3A20%3A48-brightgreen?style=flat-square)|
-
-*Last updated on: 2026-04-03 06:26:02*
+<sub>📍 China · ask me about agent architectures</sub>
